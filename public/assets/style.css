@@ -1,0 +1,47 @@
+body {
+  width: 440px;
+  margin-inline: auto;
+  padding-block: 20px;
+}
+
+.error {
+  color: red;
+}
+
+textarea {
+  width: 400px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  border: solid 1px;
+  width: 400px;
+  padding: 20px;
+  position: relative;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.user {
+  text-align: right;
+}
+
+.errorPage {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
